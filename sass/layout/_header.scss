@@ -6,8 +6,10 @@
   background-color:#F9F9F9;
 
   position: relative;
+
   @media (max-width: 760px) {
-    height: 100vh;
+    min-height: 95vh;
+    height: auto;
   }
 
   .headerBG{
@@ -282,6 +284,8 @@
     @media (max-width: 760px) {
       flex-flow: column;
       height: 87%;
+      min-height: auto;
+      padding-bottom: 1rem;
     }
 
 
@@ -386,6 +390,7 @@
         order: 1;
         img{
           height: 100%;
+          max-height: 26rem;
         }
       }
 

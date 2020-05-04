@@ -170,6 +170,15 @@
       font-family: 'Roboto',sans-serif;
       font-size: 1.8rem;
 
+      a{
+        display: inline-block;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
+
+
     }
   }
 

@@ -18,6 +18,14 @@
     clip-path: polygon(0% 0%,100% 0%,100% 70%,0% 100%);
 
 
+
+    @media (min-width: 760px) {
+      background-image: url("../../img/heroBG.jpg");
+    }
+    @media (max-width: 760px) {
+      background-image: url("../../img/heroBGsmall.jpg");
+    }
+
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +33,6 @@
     height: 100%;
     z-index: 1;
     background-color: rgba($color-primary,0.7);
-    background-image: url("../../img/heroBG.jpg");
     background-position: top center;
 
     background-repeat: no-repeat;
